@@ -9,7 +9,7 @@ For the tutorial notes, see [here](https://xiaoshengzhu.notion.site/Lab-Tutorial
 - [Java codes](https://github.com/Gypsop/LSGI3212-2022/tree/main/app/src/main/java/com/lsgi3212/lab/collection)
 - [XML layouts](https://github.com/Gypsop/LSGI3212-2022/tree/main/app/src/main/res/layout)
 - [Value definitions](https://github.com/Gypsop/LSGI3212-2022/tree/main/app/src/main/res/values)
-- 
+
 ## Screenshots
 ![Lab 2 - Confirmed Cases in the Great Bay Area](./screenshots/ConfirmedCasesInTheGreatBayArea.png)
 ![Lab 3 - Mangkhut Path](./screenshots/MangkhutPath.png)
