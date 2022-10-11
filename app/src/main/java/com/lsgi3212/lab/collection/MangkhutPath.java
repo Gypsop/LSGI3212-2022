@@ -67,6 +67,8 @@ public class MangkhutPath extends AppCompatActivity {
 
         // Prepare the map for showing both heatmap and callout
         ArcGISMap heatmapAndCalloutMap = new ArcGISMap(BasemapStyle.ARCGIS_LIGHT_GRAY);
+        // Must be the heatmap layer added AFTER adding the callout layer
+        // To make the heatmap layer on TOP of the callout layer
         heatmapAndCalloutMap.getOperationalLayers().add(featureLayer_mangkhutPath_fromUrl); // To support the callout
         heatmapAndCalloutMap.getOperationalLayers().add(featureLayer_mangkhutPath_fromPortal); // To support the heatmap
 
