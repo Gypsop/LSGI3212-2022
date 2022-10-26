@@ -51,7 +51,7 @@ public class MangkhutPath extends AppCompatActivity {
         setContentView(R.layout.activity_mangkhut_path);
 
         // ArcGIS Runtime API key
-        ArcGISRuntimeEnvironment.setApiKey(getString(R.string.allinone_api_key));
+        ArcGISRuntimeEnvironment.setApiKey(getString(R.string.arcgis_allinone_api_key));
 
         Portal portal = new Portal("https://www.arcgis.com", false);
 

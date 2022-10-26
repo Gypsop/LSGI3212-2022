@@ -12,5 +12,5 @@ For the tutorial notes, see [here](https://xiaoshengzhu.notion.site/Lab-Tutorial
 
 ## Screenshots
 <center class="half">
-    <img src="./screenshots/ConfirmedCasesInTheGreatBayArea.png" width="250"/> <img src="./screenshots/MangkhutPath.png" width="250"/>
+    <img src="./screenshots/ConfirmedCasesInTheGreatBayArea.png" width="250"/> <img src="./screenshots/MangkhutPath.png" width="250"/> <img src="./screenshots/GoogleMapsRouteQuery.png" width="250"/>
 </center>

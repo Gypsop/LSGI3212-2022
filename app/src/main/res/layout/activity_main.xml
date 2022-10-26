@@ -28,6 +28,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_toConfirmedCasesInTheGreatBayArea" />
 
+    <Button
+        android:id="@+id/button_toGoogleMapsRouteQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/buttonText_toGoogleMapsRouteQuery"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_toMangkhutPath" />
+
     <TextView
         android:id="@+id/textView_copyright"
         android:layout_width="wrap_content"

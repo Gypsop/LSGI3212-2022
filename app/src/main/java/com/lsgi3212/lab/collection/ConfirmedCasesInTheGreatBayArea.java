@@ -27,7 +27,7 @@ public class ConfirmedCasesInTheGreatBayArea extends AppCompatActivity {
         setContentView(R.layout.activity_confirmed_cases_in_the_great_bay_area);
 
         // ArcGIS Runtime API key
-        ArcGISRuntimeEnvironment.setApiKey(getString(R.string.allinone_api_key));
+        ArcGISRuntimeEnvironment.setApiKey(getString(R.string.arcgis_allinone_api_key));
 
         // Set map - all steps
         widget_mapview_confirmedCasesInTheGreatBayArea = findViewById(R.id.mapview_confirmedCasesInTheGreatBayArea);
