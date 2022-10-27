@@ -235,7 +235,7 @@ public class GoogleMapsRouteQuery extends AppCompatActivity implements OnMapRead
 
 
                                 // Prepare the route details
-                                for (int i = 1; i < request_result_json.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").length(); i++) {
+                                for (int i = 0; i < request_result_json.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").length(); i++) {
                                     request_result_route_details += request_result_json.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").getJSONObject(i).get("html_instructions").toString();
                                     if (i != request_result_json.getJSONArray("routes").getJSONObject(0).getJSONArray("legs").getJSONObject(0).getJSONArray("steps").length() - 1) {
                                         request_result_route_details += "<br>";
